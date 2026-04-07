@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CONTACT, WHATSAPP_URL, DEFAULT_WHATSAPP_MESSAGE } from "@/lib/constants";
@@ -44,8 +45,15 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-blue-900 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-              <span className="text-white font-bold text-lg">F</span>
+            <div className="w-10 h-10 group-hover:scale-105 transition-transform">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={500}
+                height={500}
+                priority
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span

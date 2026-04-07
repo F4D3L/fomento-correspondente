@@ -74,14 +74,7 @@ export default function QuemSomosPage() {
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
               <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-3xl bg-gradient-to-br from-blue-100 to-green-100 flex flex-col items-center justify-center border-4 border-white shadow-2xl">
-                {/* EDITÁVEL — substitua por <Image> com a foto real */}
-                <span className="text-7xl mb-3">👤</span>
-                <p className="text-sm text-gray-500 font-medium">
-                  [FOTO_PERFIL]
-                </p>
-                <p className="text-xs text-gray-400 mt-1">
-                  Substitua pela foto real
-                </p>
+                <img src="/profile.jpg" alt="Foto do Correspondente" className="w-full h-full object-cover rounded-3xl" />
               </div>
               {/* Badge oficial */}
               <div className="absolute -bottom-4 -right-4 bg-blue-900 text-white rounded-2xl px-4 py-2 shadow-xl text-xs font-bold flex items-center gap-2">

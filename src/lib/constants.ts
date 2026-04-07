@@ -11,7 +11,7 @@ export const CONTACT = {
   address: "Rua Coronel Pedro Scherer Sobrinho, 271", // EDITÁVEL
   city: "Curitiba", // EDITÁVEL
   state: "Paraná",
-  workingHours: "Segunda a Sexta, das 8h às 18h", // EDITÁVEL
+  workingHours: "Segunda a Sexta, das 9h às 18h", // EDITÁVEL
   instagram: "https://instagram.com/cfcreditoefinanciamento", // EDITÁVEL
   facebook: "https://facebook.com/", // EDITÁVEL
   linkedin: "https://linkedin.com/fabriciocalilfadel", // EDITÁVEL

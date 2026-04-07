@@ -154,15 +154,8 @@ export default function ContatoPage() {
 
             {/* Map embed placeholder */}
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-              {/* EDITÁVEL — substitua pela URL do Google Maps Embed real */}
-              <div className="bg-gray-100 h-48 flex flex-col items-center justify-center gap-2">
-                <MapPin size={28} className="text-gray-400" />
-                <p className="text-sm text-gray-500">Mapa — substitua pelo embed do Google Maps</p>
-                <p className="text-xs text-gray-400">
-                  {/* EDITÁVEL — cole o iframe do Google Maps aqui */}
-                  {CONTACT.city} — PR
-                </p>
-              </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.068652097121!2d-49.24257898855984!3d-25.435968233035126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5ab9446bdc1%3A0xcc228aebb22ccd28!2sR.%20Cel.%20Pedro%20Scherer%20Sobrinho%20-%20Cristo%20Rei%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1775572501204!5m2!1spt-BR!2sbr" 
+                width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
